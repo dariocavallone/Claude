@@ -1,0 +1,15 @@
+{
+  "name": "sistema-video-lancio",
+  "private": true,
+  "type": "module",
+  "description": "Sistema di video editing per i video di lancio dell'app: HyperFrames + FFmpeg + voce IA locale",
+  "scripts": {
+    "verifica": "bash scripts/verifica-setup.sh",
+    "video": "node scripts/crea-video.mjs",
+    "esporta": "bash scripts/esporta.sh"
+  },
+  "dependencies": {
+    "@fontsource/inter": "5.2.8",
+    "gsap": "3.14.2"
+  }
+}

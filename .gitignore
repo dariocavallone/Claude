@@ -1,0 +1,7 @@
+node_modules/
+build/
+output/*
+!output/.gitkeep
+assets/registrazioni/*.mp4
+assets/registrazioni/*.mov
+assets/clip/*.mp4

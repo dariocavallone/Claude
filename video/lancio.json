@@ -1,0 +1,65 @@
+{
+  "nome": "lancio",
+  "formato": "orizzontale",
+  "dispositivo": "telefono",
+  "app": {
+    "nome": "MiaApp",
+    "url": "miaapp.it",
+    "logo": "assets/brand/logo.png"
+  },
+  "stile": {
+    "colore": "#6C5CE7",
+    "sfondo": "#0B0B12",
+    "testo": "#F5F5F7",
+    "font": "Inter"
+  },
+  "voce": {
+    "id": "if_sara",
+    "velocita": 1.0
+  },
+  "musica": {
+    "file": "assets/musica/traccia.mp3",
+    "volume": 0.12,
+    "inizio": 0
+  },
+  "sottotitoli": true,
+  "scene": [
+    {
+      "tipo": "titolo",
+      "titolo": "MiaApp",
+      "sottotitolo": "Organizza la tua giornata in dieci secondi.",
+      "voce": "Quante volte hai perso un impegno perché era sepolto tra mille note? Ti presento MiaApp."
+    },
+    {
+      "tipo": "funzione",
+      "etichetta": "Funzione 1",
+      "titolo": "Aggiungi un'attività con la voce",
+      "descrizione": "Parla, e MiaApp la trascrive e la pianifica per te.",
+      "video": "assets/registrazioni/01-aggiungi.mp4",
+      "inizioVideo": 0,
+      "voce": "Tocca il microfono e detta quello che devi fare. MiaApp capisce data e ora, e lo mette subito in agenda."
+    },
+    {
+      "tipo": "funzione",
+      "etichetta": "Funzione 2",
+      "titolo": "Promemoria intelligenti",
+      "descrizione": "Ti avvisa al momento giusto, nel posto giusto.",
+      "video": "assets/registrazioni/02-promemoria.mp4",
+      "voce": "I promemoria si adattano a dove sei: se devi comprare il latte, te lo ricorda quando passi davanti al supermercato."
+    },
+    {
+      "tipo": "funzione",
+      "etichetta": "Funzione 3",
+      "titolo": "Condividi con chi vuoi",
+      "descrizione": "Liste condivise con famiglia e colleghi, sempre sincronizzate.",
+      "video": "assets/registrazioni/03-condividi.mp4",
+      "voce": "E puoi condividere le liste con la famiglia o con il tuo team. Ogni modifica arriva a tutti, in tempo reale."
+    },
+    {
+      "tipo": "cta",
+      "titolo": "Provala gratis",
+      "sottotitolo": "Disponibile su iPhone e Android",
+      "voce": "MiaApp è gratis. Scaricala oggi e riprenditi il tuo tempo."
+    }
+  ]
+}

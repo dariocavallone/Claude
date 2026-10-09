@@ -1,0 +1,39 @@
+{
+  "nome": "short-funzione-1",
+  "formato": "verticale",
+  "dispositivo": "telefono",
+  "app": {
+    "nome": "MiaApp",
+    "url": "miaapp.it",
+    "logo": "assets/brand/logo.png"
+  },
+  "stile": {
+    "colore": "#6C5CE7",
+    "sfondo": "#0B0B12",
+    "testo": "#F5F5F7"
+  },
+  "voce": {
+    "id": "im_nicola",
+    "velocita": 1.08
+  },
+  "musica": {
+    "file": "assets/musica/traccia.mp3",
+    "volume": 0.14
+  },
+  "sottotitoli": true,
+  "scene": [
+    {
+      "tipo": "funzione",
+      "etichetta": "Lo sapevi?",
+      "titolo": "Detta, non scrivere",
+      "video": "assets/registrazioni/01-aggiungi.mp4",
+      "voce": "Smetti di scrivere liste infinite. Con MiaApp ti basta dirlo: dentista giovedì alle cinque. Fatto."
+    },
+    {
+      "tipo": "cta",
+      "titolo": "MiaApp",
+      "sottotitolo": "Gratis su App Store e Google Play",
+      "voce": "Link in bio."
+    }
+  ]
+}
