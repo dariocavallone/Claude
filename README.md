@@ -1,5 +1,7 @@
 # Sistema video per il lancio dell'app (costo: 0 €)
 
+> **Vuoi video fatti interamente con l'IA (voce, musica, avatar) senza Higgsfield?** Segui [docs/ecosistema-ia.md](docs/ecosistema-ia.md).
+
 Scrivi un file JSON con le scene → il sistema genera la **voce italiana con l'IA (gratis, sul tuo PC)**, monta le registrazioni dello schermo dentro un mockup di telefono/browser, aggiunge **animazioni, musica e sottotitoli**, e produce l'MP4 pronto per YouTube, Instagram, TikTok e LinkedIn.
 
 ```
