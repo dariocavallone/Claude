@@ -1,0 +1,14 @@
+{
+  "nome": "01-aggiungi",
+  "url": "https://tuaapp.it/app",
+  "dispositivo": "telefono",
+  "azioni": [
+    { "compila": "input[type=email]", "testo": "demo@tuaapp.it" },
+    { "compila": "input[type=password]", "testo": "password-di-prova" },
+    { "clic": "text=Accedi" },
+    { "attendi": 1500 },
+    { "scrivi": "Dentista giovedì alle 17", "in": "[placeholder='Nuova attività']" },
+    { "tasto": "Enter" },
+    { "scorri": 400 }
+  ]
+}
